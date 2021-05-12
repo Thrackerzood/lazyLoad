@@ -1,0 +1,5 @@
+body{display: flex;flex-flow:column;}
+img{width: 100vh;margin: 100px auto;}
+.spinner {margin: 100px auto; animation: loading-bar-spinner 0.50s linear infinite;}
+.spinner{width: 0px;height: 0px;border:  solid 4px transparent;border-top-color:  #000000;border-left-color: #000000;border-radius: 100%; padding: 20px;}
+@keyframes loading-bar-spinner {0%{transform: rotate(0deg)}100%{transform: rotate(360deg);}}
